@@ -80,7 +80,7 @@ our_words = [
     {"text": "Twig", "cost": 3, "counter": "Flame"},
     {"text": "Sword", "cost": 4, "counter": "Shield"},
     {"text": "Shield", "cost": 4, "counter": "Gun"},
-    {"text": "Gun", "cost": 5, "counter": "Laser"},
+    {"text": "Gun", "cost": 5, "counter": "Magma"},
     {"text": "Flame", "cost": 5, "counter": "Water"},
     {"text": "Rope", "cost": 5, "counter": "Flame"},
     {"text": "Disease", "cost": 6, "counter": "Cure"},
@@ -114,7 +114,7 @@ our_words = [
     {"text": "Nuclear Bomb", "cost": 16, "counter": "Earth"},
     {"text": "Volcano", "cost": 16, "counter": "Water"},
     {"text": "Whale", "cost": 17, "counter": "Gun"},
-    {"text": "Earth", "cost": 17, "counter": "Star"},
+    {"text": "Earth", "cost": 17, "counter": "Supernova"},
     {"text": "Moon", "cost": 17, "counter": "Gravity"},
     {"text": "Star", "cost": 18, "counter": "Supernova"},
     {"text": "Tsunami", "cost": 18, "counter": "Earth"},
@@ -143,7 +143,7 @@ our_words = [
     {"text": "Object", "cost": 100, "counter": "Flame"},
     {"text": "Weather", "cost": 100, "counter": "Earth"},
     {"text": "Mithology", "cost": 100, "counter": "Karma"}, 
-    {"text": "Celestial", "cost": 100, "counter": "Gravity"}, 
+    {"text": "Celestial", "cost": 100, "counter": "Supernova"}, 
     {"text": "Educational Subject", "cost": 100, "counter": "Logic"},
     {"text": "Underworld", "cost": 100, "counter": "Flame"},
     {"text": "Magic", "cost": 100, "counter": "Logic"},
@@ -155,6 +155,8 @@ our_words = [
     {"text": "Small Particles", "cost": 100, "counter": "Wind"},
     {"text": "Hand", "cost": 100, "counter": "Sword"},
     {"text": "Mess", "cost": 100, "counter": "Wind"},
+    {"text": "Weapon", "cost": 100, "counter": "Magma"},
+    {"text": "Sport", "cost": 100, "counter": "Sword"},
 
 ]
 valid_words = {word["text"] for word in our_words}
@@ -218,7 +220,7 @@ def what_beats(word):
 
 
 def play_game(player_id):
-
+    input()
     for round_id in range(1, NUM_ROUNDS+1):
         round_num = -1
         while round_num != round_id:
