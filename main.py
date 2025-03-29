@@ -87,7 +87,7 @@ our_words = [
     {"text": "Cure", "cost": 6, "counter": "Fate"},
     {"text": "Bacteria", "cost": 6, "counter": "Vaccine"},
     {"text": "Shadow", "cost": 7, "counter": "Light"},
-    {"text": "Light", "cost": 7, "counter": "Storm"},
+    {"text": "Light", "cost": 7, "counter": "Sword"},
     {"text": "Virus", "cost": 7, "counter": "Vaccine"},
     {"text": "Sound", "cost": 8, "counter": "Time"},
     {"text": "Time", "cost": 8, "counter": "Fate"},
@@ -115,7 +115,7 @@ our_words = [
     {"text": "Volcano", "cost": 16, "counter": "Water"},
     {"text": "Whale", "cost": 17, "counter": "Gun"},
     {"text": "Earth", "cost": 17, "counter": "Supernova"},
-    {"text": "Moon", "cost": 17, "counter": "Gravity"},
+    {"text": "Moon", "cost": 17, "counter": "Supernova"},
     {"text": "Star", "cost": 18, "counter": "Supernova"},
     {"text": "Tsunami", "cost": 18, "counter": "Earth"},
     {"text": "Supernova", "cost": 19, "counter": "Rebirth"},
@@ -157,6 +157,7 @@ our_words = [
     {"text": "Mess", "cost": 100, "counter": "Wind"},
     {"text": "Weapon", "cost": 100, "counter": "Magma"},
     {"text": "Sport", "cost": 100, "counter": "Sword"},
+    {"text": "Dark", "cost": 100, "counter": "Light"},
 
 ]
 valid_words = {word["text"] for word in our_words}
