@@ -195,6 +195,12 @@ class WordGameStrategy:
         counter_word = similar_word_data["counter"]
         counter_data = word_lookup[counter_word.lower()]
         self.total_cost += counter_data["cost"]
+
+        print(f"Round {self.round}:")
+        print(f"Opponent played: {opponent_word}")
+        print(f"Most similar in our list: {similar_word_data['text']}")
+        print(f"Selected: {counter_data['text']} (Cost: ${counter_data['cost']})")
+        print(f"Total cost: ${self.total_cost}\n")
         
         self.round += 1
         return counter_data
