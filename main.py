@@ -71,7 +71,7 @@ orig_list = {
 
 our_words = [
     {"text": "Feather", "cost": 1, "counter": "Rock"},
-    {"text": "Coal", "cost": 1, "counter": "Flame"},
+    {"text": "Coal", "cost": 1, "counter": "Water"},
     {"text": "Pebble", "cost": 1, "counter": "Rock"},
     {"text": "Leaf", "cost": 2, "counter": "Flame"},
     {"text": "Paper", "cost": 2, "counter": "Flame"},
@@ -132,7 +132,7 @@ our_words = [
     {"text": "Entropy", "cost": 45, "counter": "Time"},
 
 
-    {"text": "Building", "cost": 100, "counter": "Explosion"},
+    {"text": "Building", "cost": 100, "counter": "Earthquake"},
     {"text": "Animal", "cost": 100, "counter": "Gun"},
     {"text": "Person", "cost": 100, "counter": "Gun"},
     {"text": "Flower", "cost": 100, "counter": "Flame"}, 
