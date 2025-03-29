@@ -158,6 +158,7 @@ our_words = [
     {"text": "Weapon", "cost": 100, "counter": "Magma"},
     {"text": "Sport", "cost": 100, "counter": "Sword"},
     {"text": "Dark", "cost": 100, "counter": "Light"},
+    {"text": "Vehicle", "cost": 100, "counter": "Magma"},
 
 ]
 valid_words = {word["text"] for word in our_words}
